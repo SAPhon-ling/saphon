@@ -1,6 +1,10 @@
 import sys, os
-from ..io import *
 
+from python.saphon.io import *
+
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#
+# from io import *
 if len(sys.argv) < 3:
    print('write.py SAPHON_DIR HTML_DIR')
    sys.exit(1)

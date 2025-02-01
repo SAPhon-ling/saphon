@@ -1,8 +1,8 @@
 import html
 from collections import *
-from ..io import *
-from ..web.optimize_layout import *
-from ..web.xlt import *
+
+from python.saphon.web.optimize_layout import *
+from python.saphon.web.xlt import *
 #import saphon.web.dbg as dbg
 
 # Write a table labeled `name` with `sounds`, using `optimizeLayout`
@@ -73,11 +73,11 @@ def writeLocal(saphonData, htmlDir, loc):
   """
 
   # Create a file for our own use that contains all inventories.
-  foMaster = open(htmlDir+'/'+metalang+'/inv/master.html', 'w')
+  foMaster = open(htmlDir+'/'+metalang+'/inv/master.html', 'w', encoding='utf-8')
   foMaster.write(inventoryHead)
 
   for lang in saphonData.lang_:
-    fo = open(htmlDir+'/'+metalang+'/inv/'+lang.nameComp+'.html', 'w')
+    fo = open(htmlDir+'/'+metalang+'/inv/'+lang.nameComp+'.html', 'w', encoding='utf-8')
     fo.write(inventoryHead)
 
     # For writing to master and individual inventories simultaneously.

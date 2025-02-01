@@ -2,6 +2,7 @@ import csv, math, re, sys, os, unicodedata
 import glob
 import yaml
 from collections import *
+import chardet
 
 class SaphonData:
   def __init__(self, familyOrdered_, featInfo, lang_):
@@ -68,7 +69,7 @@ with existing code based on .txt files.'''
         '''Instantiate object from .yaml file.'''
         self.synthesis = None
         self.refs = []
-        with open(yamlfile, 'r') as fh:
+        with open(yamlfile, 'r', encoding='utf-8') as fh:
             docs = list(yaml.safe_load_all(fh))
         for doc in docs:
             try:
@@ -187,7 +188,7 @@ def writeSaphonFiles(dir, lang_, feat_):
   if not os.path.exists(dir):
     os.makedirs(dir)
   for lang in lang_:
-    fo = open(dir+'/'+lang.nameComp+'.txt', 'w')
+    fo = open(dir+'/'+lang.nameComp+'.txt', 'w', encoding='utf-8')
     fo.write('name: ' + lang.name + '\n')
     fo.write('name.short: ' + lang.nameShort + '\n')
     for nameAlt in lang.nameAlt_:
