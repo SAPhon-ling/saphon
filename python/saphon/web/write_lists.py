@@ -73,7 +73,7 @@ def writeLocal(saphonData, htmlDir, loc):
     rowGen = rowGenerator_[iSort]
 
     for iAlt in range(2): # 0 = hide alternates
-      fo = open(htmlDir+'/'+metalang+'/'+sortStr_[iSort]+altStr_[iAlt]+'.php', 'w')
+      fo = open(htmlDir+'/'+metalang+'/'+sortStr_[iSort]+altStr_[iAlt]+'.php', 'w', encoding='utf-8')
       fo.write(loc.language_lists_text)
       fo.write('<table class=index><tr>\n')
 
