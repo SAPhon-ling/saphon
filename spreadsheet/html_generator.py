@@ -9,6 +9,13 @@ import unicodedata
 with open('../resources/ipa.json', 'r', encoding='utf-8') as ipa_file:
     ipa = json.load(ipa_file)
 
+# List of phoneme symbols as ordered in ipa.json.
+ipasymbols = [symbol["symbol"] for phon in ipa for symbol in phon["symbols"]]
+# fcodes maps each phoneme symbol to its integer index in ipa.json. This
+# is not a stable value and can change when the contents of ipa.json are
+# changed.
+fcodes = {sym: idx for idx, sym in enumerate(ipasymbols)}
+
 def normalizeIPA(s):
   return unicodedata.normalize('NFD', s)
 
@@ -168,7 +175,7 @@ def generate_ipa_subsets(phonemes):
 
     return consonant_subset, vowels_subset, these_lost_phonemes
 
-def generate_ipa_chart(phonemes: set, allophones: dict, subset: dict, consonant: bool):
+def generate_ipa_chart(phonemes: set, allophones: dict, subset: dict, consonant: bool, add_fcodes: bool=False):
     if consonant:
         title = "Consonants"
         col, subCol = places, "places"
@@ -208,9 +215,10 @@ def generate_ipa_chart(phonemes: set, allophones: dict, subset: dict, consonant:
                             html += f"""
                             <span id="{symbol}" class="visible-allophone"> {symbol} </span>
                             """
-                        else: 
+                        else:
+                            fcode = f' f={fcodes[symbol]}' if add_fcodes is True else ''
                             html += f"""
-                            <span id="{symbol}" class="visible-phoneme"> {symbol} </span>
+                            <span id="{symbol}"{fcode} class="visible-phoneme"> {symbol} </span>
                             """
                     html += f"</td>"
             html += "</tr>"
