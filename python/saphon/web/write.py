@@ -1,6 +1,10 @@
 import sys, os
-import saphon.io
 
+from python.saphon.io import *
+
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#
+# from io import *
 if len(sys.argv) < 3:
    print('write.py SAPHON_DIR HTML_DIR')
    sys.exit(1)
@@ -8,7 +12,7 @@ if len(sys.argv) < 3:
 saphonDir, htmlDir, ipatable = sys.argv[1:4]
 
 #saphonData = saphon.io.readSaphonFiles(saphonDir)
-saphonData = saphon.io.readSaphonYAMLFiles(saphonDir, ipatable)
+saphonData = readSaphonYAMLFiles(saphonDir, ipatable)
 
 generationModules = [__import__(m) for m in (
   'write_inventories',

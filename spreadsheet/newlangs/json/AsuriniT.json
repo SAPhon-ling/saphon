@@ -1,0 +1,4305 @@
+{
+  "info": {
+    "name": "Asuriní do Tocantins",
+    "short_name": "Asuriní Toc",
+    "alternate_names": [
+      "None"
+    ],
+    "glottolog_code": "toca1235",
+    "iso_codes": [
+      "asu"
+    ],
+    "family": "Tupí",
+    "countries": [
+      "Brazil"
+    ],
+    "coordinates": [
+      {
+        "latitude": -3.3,
+        "longitude": -50.0,
+        "elevation_meters": "Unspecified"
+      }
+    ],
+    "notes": "None"
+  },
+  "synthesis": {
+    "summary": "We base this synthesis mainly on Nicholson (1975/2009) and Harrison (1975), which are the two previous works with most substantive empirical engagement with the language. Asuriní does not exhibit alternation of [N]~[ND]~[D] type, not does it have contrastive nasal vowels. However, it does exhibit a number of morphophonological alternations affecting some consonants that undergo oralization or nasalization in the presence of certain affixes or lexically specified roots. Following Harrison we posit: (1) an LO process by which root-final /m, n, ŋ/ surface [p, t, k] in certain verb roots before the suffixes -a and -ta; (2) LO - {m, n} go to {w, ɾ} in certain roots; (3) LO - {m, n, ŋ} go to {p, h, k} in certain roots. We sided with Nicholson in the oralization of root-final /m, n/ into [w, ɾ], because we found it implausible that Nicholson would fail to notice an obvious natural group of vowel-initial suffixes. Following Harrison: (1) LO /N/ --> [T] before -ta; (2) LN /T/ --> [N] after mo-; (3) LO /n/ --> [w] after mo-. Asuriní lost contrastive nasal vowels, and therefore LDNH.",
+    "notes": "Couldn't access the following: Harrison, Carl H. Asurini morphophonology [s. loc.] University of Pensylvania, 1967. Tese submetida a exame para a obtenção do grau de Master of Arts. 70 fls. li No Arquivo do Setor de Linguística do Departamento de Antropologia do M.N. /U.F.R.J.; HARRISON, Carl H. The phonemes of Asuriní, a language of Brazil. Brasília, S.I.L. [s.d.a] 14 fls. No Arquivo do Setor de Lingüística do Departamento de Antropologia do Museu Nacional/U.F.R.J.; NICHOLSON, Velda. Ordem frasal de cláusulas na língua asurini. Brasília, S.I.L., 1977. Cópia datilografada constante do Arquivo do Setor de Lingüística do Departamento de Antropologia do Museu Nacional/U .F. R. J.",
+    "natural_classes": [
+      {
+        "symbol": "V",
+        "members": [
+          "i",
+          "ɨ",
+          "ɛ",
+          "a",
+          "o"
+        ]
+      },
+      {
+        "symbol": "T",
+        "members": [
+          "p",
+          "t",
+          "ts",
+          "k",
+          "kʷ",
+          "ʔ"
+        ]
+      },
+      {
+        "symbol": "N",
+        "members": [
+          "m",
+          "n",
+          "ŋ"
+        ]
+      },
+      {
+        "symbol": "R",
+        "members": [
+          "w",
+          "ɾ"
+        ]
+      },
+      {
+        "symbol": "S",
+        "members": [
+          "s",
+          "h"
+        ]
+      }
+    ],
+    "phonemes": [
+      {
+        "phoneme": "p",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "p"
+              }
+            ]
+          },
+          {
+            "preceding": "mo-",
+            "following": "",
+            "allophones": [
+              {
+                "allophone": "m",
+                "processnames": [
+                  "MPP=LNsyll"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "t",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "t"
+              }
+            ]
+          },
+          {
+            "preceding": "mo-",
+            "following": "",
+            "allophones": [
+              {
+                "allophone": "n",
+                "processnames": [
+                  "MPP=LNsyll"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "k",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "k"
+              }
+            ]
+          },
+          {
+            "preceding": "mo-",
+            "following": "",
+            "allophones": [
+              {
+                "allophone": "ŋ",
+                "processnames": [
+                  "MPP=LNsyll"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "kʷ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "kʷ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ʔ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "ʔ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "m",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "m"
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "{-a, -ta}",
+            "allophones": [
+              {
+                "allophone": "p",
+                "processnames": [
+                  "MPP=LO:NtoT"
+                ]
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "-awa",
+            "allophones": [
+              {
+                "allophone": "p",
+                "processnames": [
+                  "MPP=LO:NtoH"
+                ]
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "{-i, -y'ym, -rame, -romo, -ete, -ypy, -eme}",
+            "allophones": [
+              {
+                "allophone": "w",
+                "processnames": [
+                  "MPP=LO:NtoW"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "n",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "n"
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "{-a, -ta}",
+            "allophones": [
+              {
+                "allophone": "t",
+                "processnames": [
+                  "MPP=LO:NtoT"
+                ]
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "-awa",
+            "allophones": [
+              {
+                "allophone": "h",
+                "processnames": [
+                  "MPP=LO:NtoH"
+                ]
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "{-i, -y'ym, -rame, -romo, -ete, -ypy, -eme}",
+            "allophones": [
+              {
+                "allophone": "ɾ",
+                "processnames": [
+                  "MPP=LO:NtoW"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ŋ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "ŋ"
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "{-a, -ta}",
+            "allophones": [
+              {
+                "allophone": "k",
+                "processnames": [
+                  "MPP=LO:NtoT"
+                ]
+              }
+            ]
+          },
+          {
+            "preceding": "",
+            "following": "-awa",
+            "allophones": [
+              {
+                "allophone": "k",
+                "processnames": [
+                  "MPP=LO:NtoH"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "w",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "w"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ɾ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "ɾ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ts",
+        "environments": [
+          {
+            "preceding": "TODO: @",
+            "following": "TODO: @",
+            "allophones": [
+              {
+                "allophone": "ts",
+                "processnames": []
+              },
+              {
+                "allophone": "tʃ",
+                "processnames": [
+                  "palatalization"
+                ]
+              },
+              {
+                "allophone": "s",
+                "processnames": [
+                  "lenition"
+                ]
+              },
+              {
+                "allophone": "ʃ",
+                "processnames": [
+                  "lenition"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "h",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "h"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "i",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "i"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ɨ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "ɨ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "ɛ",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "ɛ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "a",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phoneme": "o",
+        "environments": [
+          {
+            "preceding": "",
+            "following": "",
+            "allophones": [
+              {
+                "processnames": [],
+                "allophone": "o"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "morphemes": [
+      {
+        "morpheme_id": "a",
+        "morpheme_type": "suffix",
+        "underlying_form": "a",
+        "surface_forms": [
+          "a"
+        ],
+        "gloss": "nuclear case"
+      },
+      {
+        "morpheme_id": "i",
+        "morpheme_type": "suffix",
+        "underlying_form": "i",
+        "surface_forms": [
+          "i"
+        ],
+        "gloss": "de-emphasis"
+      },
+      {
+        "morpheme_id": "y'ym",
+        "morpheme_type": "suffix",
+        "underlying_form": "y'ym",
+        "surface_forms": [
+          "y'ym"
+        ],
+        "gloss": "NEG"
+      },
+      {
+        "morpheme_id": "rame",
+        "morpheme_type": "suffix",
+        "underlying_form": "rame",
+        "surface_forms": [
+          "ramo"
+        ],
+        "gloss": "now"
+      },
+      {
+        "morpheme_id": "ete",
+        "morpheme_type": "suffix",
+        "underlying_form": "ete",
+        "surface_forms": [
+          "ete"
+        ],
+        "gloss": "a.lot"
+      },
+      {
+        "morpheme_id": "eme",
+        "morpheme_type": "suffix",
+        "underlying_form": "eme",
+        "surface_forms": [
+          "eme"
+        ],
+        "gloss": "IMP"
+      },
+      {
+        "morpheme_id": "awa",
+        "morpheme_type": "suffix",
+        "underlying_form": "awa",
+        "surface_forms": [
+          "awa"
+        ],
+        "gloss": "NMLZ"
+      },
+      {
+        "morpheme_id": "mo",
+        "morpheme_type": "prefix",
+        "underlying_form": "mo",
+        "surface_forms": [
+          "mo"
+        ],
+        "gloss": "CAUS"
+      },
+      {
+        "morpheme_id": "ta",
+        "morpheme_type": "suffix",
+        "underlying_form": "ta",
+        "surface_forms": [
+          "ta"
+        ],
+        "gloss": "dependent"
+      },
+      {
+        "morpheme_id": "ypy",
+        "morpheme_type": "suffix",
+        "underlying_form": "ypy",
+        "surface_forms": [
+          "ypy"
+        ],
+        "gloss": "firstly"
+      }
+    ],
+    "processdetails": [
+      {
+        "processname": "LO:NtoT",
+        "processtype": "LO",
+        "summary": "{m, n, ŋ} go to {p, t, k} in certain verb roots before -a suffix",
+        "optionality": "categorical",
+        "directionality": "leftward",
+        "alternation_type": "morphophonological",
+        "domain": "word-internal",
+        "undergoers": {
+          "segments": {
+            "units": [
+              "m",
+              "n",
+              "ŋ"
+            ],
+            "positional_restrictions": "{root, final}"
+          },
+          "morphemes": {},
+          "suprasegments": {}
+        },
+        "triggers": {
+          "segments": [],
+          "morphemes": [
+            {
+              "units": [
+                "a",
+                "ta"
+              ],
+              "positional_restrictions": "{suffix}"
+            }
+          ],
+          "suprasegments": []
+        },
+        "transparent": {
+          "segments": [],
+          "morphemes": []
+        },
+        "opaque": {
+          "segments": [],
+          "morphemes": []
+        }
+      },
+      {
+        "processname": "LO:NtoW",
+        "processtype": "LO",
+        "summary": "{m, n} go to {w, ɾ} in certain roots before certain suffixes",
+        "optionality": "categorical",
+        "directionality": "leftward",
+        "alternation_type": "morphophonological",
+        "domain": "word-internal",
+        "undergoers": {
+          "segments": {
+            "units": [
+              "m",
+              "n"
+            ],
+            "positional_restrictions": "{root, final}"
+          },
+          "morphemes": {},
+          "suprasegments": {}
+        },
+        "triggers": {
+          "segments": [],
+          "morphemes": [
+            {
+              "units": [
+                "(certain suffixes)"
+              ],
+              "positional_restrictions": "{suffix}"
+            }
+          ],
+          "suprasegments": []
+        },
+        "transparent": {
+          "segments": [],
+          "morphemes": []
+        },
+        "opaque": {
+          "segments": [],
+          "morphemes": []
+        }
+      },
+      {
+        "processname": "LO:NtoH",
+        "processtype": "LO",
+        "summary": "{m, n, ŋ} go to {p, h, k} in certain roots before the -awa suffix",
+        "optionality": "categorical",
+        "directionality": "leftward",
+        "alternation_type": "morphophonological",
+        "domain": "word-internal",
+        "undergoers": {
+          "segments": {
+            "units": [
+              "m",
+              "n",
+              "ŋ"
+            ],
+            "positional_restrictions": "{root, final}"
+          },
+          "morphemes": {},
+          "suprasegments": {}
+        },
+        "triggers": {
+          "segments": [],
+          "morphemes": [
+            {
+              "units": [
+                "awa"
+              ],
+              "positional_restrictions": "{suffix}"
+            }
+          ],
+          "suprasegments": []
+        },
+        "transparent": {
+          "segments": [],
+          "morphemes": []
+        },
+        "opaque": {
+          "segments": [],
+          "morphemes": []
+        }
+      },
+      {
+        "processname": "LNsyll",
+        "processtype": "LNsyll",
+        "summary": "root-initial /p, t, k/ --> [m, n, ŋ] / mo- __",
+        "optionality": "categorical",
+        "directionality": "rightward",
+        "alternation_type": "morphophonological",
+        "domain": "word-internal",
+        "undergoers": {
+          "segments": {
+            "units": [
+              "p",
+              "t",
+              "k"
+            ],
+            "positional_restrictions": "{root, initial}"
+          },
+          "morphemes": {},
+          "suprasegments": {}
+        },
+        "triggers": {
+          "segments": [],
+          "morphemes": [
+            {
+              "units": [
+                "mo"
+              ],
+              "positional_restrictions": "{prefix}"
+            }
+          ],
+          "suprasegments": []
+        },
+        "transparent": {
+          "segments": [],
+          "morphemes": []
+        },
+        "opaque": {
+          "segments": [],
+          "morphemes": []
+        }
+      }
+    ],
+    "tone": false,
+    "laryngeal_harmony": false
+  },
+  "sources": [
+    {
+      "summary": "Nicholson does not identify any general phonological consonantal or vocalic nasal/alternations in the language, nor any voiced oral stops. She proposes underlying nasal consonants and oral vowels alongside three morphophonological processes that affect nasal consonants in certain roots of Asuriní do Tocantins (pp. 5-6): (1) leftward LO,  root-final [m], [n], and [ŋ] oralize to [p], [t], and [k] when followed by the suffix /-a/, (pp. 2-3). The author only provides examples for the following roots {ósym, omókom, óken, óeron, oeságokan, ó'ag, omósywag} and claims that LO does not necessarily occur for all roots in Asuriní do Tocantins that contain word-final [m]; (2) leftward LO, where root-final nasals [m, n, ŋ] oralize to [p, h, k], respectively, in which the nominalizer suffix {-awa} triggers this process; and (3) leftward LO, where the suffixes {-i, -y'ym, -rame, -ete, -ypy, -eme} cause [m] and [n] in certain roots to lenite to [w, ɾ], respectively. This process only occurs in the following roots: {omókom, ópam, ó'am, óken, okáapin, ó'an} (p. 3) and does not have to occur for all roots with root-final nasals. Nicholson notes that when followed by the {-i} suffix, verbs in Asuriní do Tocantins become 'de-emphasized' (p. 3).",
+      "notes": "Nicholson does not provide a gloss for the {-a} suffix and does not explain what it means when a verbal root becomes 'de-emphasized'.  Each MPP process posited by Nicholson contains data which does not undergo morphophonological alternations, including explicit claims by Nicholson who notes the following for the MPP:NtoT process: \"Quando o radical verbal termina em nasal e torna-se um verbo não-iniciante (com a adição do sufixo a) a nasal se torna plosiva. (Entretanto, há exceções.)\" (p. 2, author's emphasis), as well as claims throughout the manuscript which suggest that these processes may be optional in Asuriní do Tocantins: \"NB. Há casos em que o 'm' não muda\" (p. 5), \"NA. Nenhuma mudança no 'm' do sufixo negativo\" (p. 3). Given these descriptions, we believe that these morphophonological alternations are categorical for the specific data included by Nicholson. For the morphemes that do not undergo these processes (as described by Nicholson), we believe that they are not affected. Therefore, Optionality for these processes has been included as \"Categorical\", however further research is required to determine this fact.",
+      "citation": [
+        "Nicholson, Velda C. 1975/2009. Transformações Morfofonêmicas em Asuriní. Associação Internacional de Linguística SIL - Brasil"
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "k",
+            "kʷ",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "w"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "s",
+            "h"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "kʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "kʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+a",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+awa",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=LO:NtoH"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+{-i, -y'ym, -rame, -romo, -ete, -ypy, -eme}",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "MPP=LO:NtoW"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+a",
+              "allophones": [
+                {
+                  "allophone": "t",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+awa",
+              "allophones": [
+                {
+                  "allophone": "h",
+                  "processnames": [
+                    "MPP=LO:NtoH"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+{-i, -y'ym, -rame, -romo, -ete, -ypy, -eme}",
+              "allophones": [
+                {
+                  "allophone": "ɾ",
+                  "processnames": [
+                    "MPP=LO:NtoW"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+a",
+              "allophones": [
+                {
+                  "allophone": "k",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+awa",
+              "allophones": [
+                {
+                  "allophone": "k",
+                  "processnames": [
+                    "MPP=LO:NtoH"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "s",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "e",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "o"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [
+        {
+          "morpheme_id": "a.NUCL",
+          "morpheme_type": "suffix",
+          "underlying_form": "a",
+          "surface_forms": [
+            "a"
+          ],
+          "gloss": "nuclear case"
+        },
+        {
+          "morpheme_id": "i.DEMP",
+          "morpheme_type": "suffix",
+          "underlying_form": "i",
+          "surface_forms": [
+            "i"
+          ],
+          "gloss": "demphasis"
+        },
+        {
+          "morpheme_id": "yʔym",
+          "morpheme_type": "suffix",
+          "underlying_form": "yʔym",
+          "surface_forms": [
+            "yʔym"
+          ],
+          "gloss": "NEG"
+        },
+        {
+          "morpheme_id": "rame",
+          "morpheme_type": "suffix",
+          "underlying_form": "rame",
+          "surface_forms": [
+            "ramo"
+          ],
+          "gloss": "now"
+        },
+        {
+          "morpheme_id": "ete",
+          "morpheme_type": "suffix",
+          "underlying_form": "ete",
+          "surface_forms": [
+            "ete"
+          ],
+          "gloss": "a.lot"
+        },
+        {
+          "morpheme_id": "eme",
+          "morpheme_type": "suffix",
+          "underlying_form": "eme",
+          "surface_forms": [
+            "eme"
+          ],
+          "gloss": "IMP"
+        },
+        {
+          "morpheme_id": "awa",
+          "morpheme_type": "suffix",
+          "underlying_form": "awa",
+          "surface_forms": [
+            "awa"
+          ],
+          "gloss": "NMLZ"
+        },
+        {
+          "morpheme_id": "ypy",
+          "morpheme_type": "suffix",
+          "underlying_form": "ypy",
+          "surface_forms": [
+            "ypy"
+          ],
+          "gloss": "firstly"
+        }
+      ],
+      "processdetails": [
+        {
+          "processname": "LO:NtoT",
+          "processtype": "LO",
+          "summary": "Root-final /m, n, ŋ/ oralize to [p, t, k] in certain verb roots when followed by {-a} suffix",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n",
+                "ŋ"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "a.NUCL"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoW",
+          "processtype": "LO",
+          "summary": "TODO: NOT PARSED",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "i.DEMP",
+                  "yʔym",
+                  "rame",
+                  "ete",
+                  "ypy",
+                  "eme"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoH",
+          "processtype": "LO",
+          "summary": "/m, n, ŋ/ oralize to [p, h, k] in certain roots when followed by {awa}",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n",
+                "ŋ"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "awa"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        }
+      ]
+    },
+    {
+      "summary": "Soares cites Harrison's (1976) analysis and does not present any of her own analysis. In Soares' citation, Harrison (1976) proposes two morphophonological processes: (1) leftward MPP, in which the dependent suffix {-ta} triggers oralization of [m, n, ŋ] in certain Asuriní roots, which oralize to [p, t, k], respectively (p. 68-69). This processes only affects the following roots: {opam, oken, iˀaŋ}. Soares also notes that this process does not affect other roots that contain word-final nasals and does not expand on Harrison's analysis as to why other roots are not affected; (2) leftward MPP, the suffixes {-rame, now} and {-oho, really} trigger the oralization of verbs with root-final [m] and [n] to [ɾ] and [w], respectively (p. 65-66). After these processes are explained, the author mainly discusses historical processes of Guajajára and Asuriní do Tocantins, proposing that Asuriní do Tocantins lost nasalized vowels and therefore does not have LDNH.",
+      "notes": "Author does not mention where data was collected from or from who, only that Asurini is spoken in Posto Indígeno do Trocará, in the state of Pará (p. 8).   Soares relies on Harrison's (1976) analysis for nasal-oral alternation processes. Soares also cites Harrison (1967) and Nicholson (1977) - wasn't able to locate. The data the author cites from Harrison for LO triggered by the suffixes {-oho, -rame} do not appear in Harrison (1976).",
+      "citation": [
+        "Facó Soares, Marília Lopes da Costa. 1979. A perda da nasalidade e outras mutações vocálicas em Kokama, Asurini e Guajajara. MA thesis, Rio de Janeiro: Universidade Federal do Rio de Janeiro."
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "tʃ",
+            "k",
+            "kʷ",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "ɾ",
+            "w",
+            "j"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "s",
+            "h"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "kʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "kʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "-ta",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "{-oho, -ame}",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "MPP=LO:NtoW"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "-ta",
+              "allophones": [
+                {
+                  "allophone": "t",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "{-oho, -ame}",
+              "allophones": [
+                {
+                  "allophone": "ɾ",
+                  "processnames": [
+                    "MPP=LO:NtoW"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "-ta",
+              "allophones": [
+                {
+                  "allophone": "k",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɾ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɾ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "j",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "tʃ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "tʃ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "e",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "o"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [
+        {
+          "morpheme_id": "ta",
+          "morpheme_type": "suffix",
+          "underlying_form": "ta",
+          "surface_forms": [
+            "ta"
+          ],
+          "gloss": "dependent"
+        },
+        {
+          "morpheme_id": "oho",
+          "morpheme_type": "suffix",
+          "underlying_form": "oho",
+          "surface_forms": [
+            "oho"
+          ],
+          "gloss": "really"
+        },
+        {
+          "morpheme_id": "ame",
+          "morpheme_type": "suffix",
+          "underlying_form": "ame",
+          "surface_forms": [
+            "ame"
+          ],
+          "gloss": "now"
+        }
+      ],
+      "processdetails": [
+        {
+          "processname": "LO:NtoT",
+          "processtype": "LO",
+          "summary": "Root-final /m, n, ŋ/ oralize to [p, t, k] when followed by {-ta}",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n",
+                "ŋ"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "ta"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoW",
+          "processtype": "LO",
+          "summary": "Root-final /m, n/ --> [w, ɾ] before suffixes -ame and -oho",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "ame",
+                  "oho"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        }
+      ]
+    },
+    {
+      "summary": "This article is a Portuguese translation by Mary I. Daniel of Harrison's (1975) original English publication. Harrison posits underlying nasal consonants (N) and oral vowels (V) for Asuriní do Tocantins and four morphophonological processes: (1) leftward MPP, root-final /m, n, ŋ/ oralize to [p, t, k], respectively, followed by the dependent suffix {-ta} (p.119). Only one example is provided as evidence of this process: /pam/ 'to finish oralizing to [pap]; (2) leftward MPP, lenition and oralization of root-final /m, n/ to [w, ɾ], respectively, before oral vowels (p.199); (3) rightward MPP, some verbs with initial /p, t, k/ nasalize to [m, n, ŋ] after the causative prefix {mo-} (p.188). Harrison notes that only some verb roots undergo this alternation while others do not (\"Alguns temas verbais têm P, T ou K inicial. Quando precedidos de mo– 'causativo', P, T e K se apresentam como m, n e ŋ, respectivamente. Nos outros casos, aparecem com p, t, k\", p.118) which leads us to belief that this process is restricted to a lexically specified set of verb roots in Asuriní do Tocantins. Because of the author's claim, the morpheme IDs in the Undergoers section has been included as \"lexically specified roots with initial /p, t, k/.; (4) rightward MPP, oralization and lenition of /m/ to [w] in transitive verbs (p.118). Harrison only provides one example for this process: {nahɨ, injured} which appears as {wahɨ}.",
+      "notes": "Data collected from speakers who lived in Posto Indígena Trocará (p. 7).   Paper addresses discourse in Asuriní do Tocantins, and provides short section at end of paper discussing morphophonological rules. This section contains few examples. Harrison notes that the suffix {-ta} is a dependent suffix.   For the LO:NtoW process, Harrison notes that the archiphoneme /ŋ/ remains as /ŋ/ (p. 119) and does not expand on this.   Harrison uses <c> to denote a sound that represents \"alveolar to alveopalatal fricatives and affricates\" (p. 10); it has been assumed that [ts] is the underlying phoneme and that there is free variation between /ts, tʃ, s, ʃ/ (p. 10).  The default realization of /e/ might actually be /ɛ/, based on the following note from Harrison: \"e (na maioria dos casos [ɛ])\" (p.10). There is no further description of this phoneme/allophone's occurrence by Harrison, so the phoneme has been left as /e/.",
+      "citation": [
+        "Harrison, Carl H. 1975. Gramática asuriní. Aspectos de uma gramática transformacional e discursos monologados da língua asuriní, família tupiguarani. Tradução de Mary I. Daniel. Série Lingüística, n. 4, Brasília."
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "ts",
+            "k",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "s",
+            "h"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "w",
+            "ɾ"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "m",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "n",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "ŋ",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɾ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɾ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+V",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "XMP=LO:NtoW"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "MPP=LO:w"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "t",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+V",
+              "allophones": [
+                {
+                  "allophone": "ɾ",
+                  "processnames": [
+                    "XMP=LO:NtoW"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "k",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "s",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ts",
+          "environments": [
+            {
+              "preceding": "TODO: @",
+              "following": "TODO: @",
+              "allophones": [
+                {
+                  "allophone": "ts",
+                  "processnames": []
+                },
+                {
+                  "allophone": "tʃ",
+                  "processnames": [
+                    "palatalization"
+                  ]
+                },
+                {
+                  "allophone": "s",
+                  "processnames": [
+                    "lenition"
+                  ]
+                },
+                {
+                  "allophone": "ʃ",
+                  "processnames": [
+                    "lenition"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "e",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "o"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [
+        {
+          "morpheme_id": "mo",
+          "morpheme_type": "prefix",
+          "underlying_form": "mo",
+          "surface_forms": [
+            "mo"
+          ],
+          "gloss": "CAUS"
+        },
+        {
+          "morpheme_id": "ta",
+          "morpheme_type": "suffix",
+          "underlying_form": "ta",
+          "surface_forms": [
+            "ta"
+          ],
+          "gloss": "dependent"
+        }
+      ],
+      "processdetails": [
+        {
+          "processname": "LO:w",
+          "processtype": "LO",
+          "summary": "Oralization and lenition of /m/ to [w] after the causative prefix {mo-}",
+          "optionality": "categorical",
+          "directionality": "rightward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m"
+              ],
+              "positional_restrictions": "{root, initial}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [
+              {
+                "units": [
+                  "mo"
+                ],
+                "positional_restrictions": "{prefix}"
+              }
+            ],
+            "morphemes": [],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoW",
+          "processtype": "LO",
+          "summary": "Root-final /m, n/ oralize to [w, ɾ] before an oral vowel",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [
+              {
+                "units": [
+                  "V"
+                ],
+                "positional_restrictions": "{suffix, initial}"
+              }
+            ],
+            "morphemes": [],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoT",
+          "processtype": "LO",
+          "summary": "Root-final /m, n, ŋ/ oralize to [p, t, k] before the dependent suffix {-ta}",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n",
+                "ŋ"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "ta"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LNsyll:mo",
+          "processtype": "LNsyll",
+          "summary": "Some verbs with initial /p, t, k/ nasalize to [m, n, ŋ] after the causative prefix {mo-}",
+          "optionality": "categorical",
+          "directionality": "rightward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "p",
+                "t",
+                "k"
+              ],
+              "positional_restrictions": "{root, initial}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "mo"
+                ],
+                "positional_restrictions": "{prefix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        }
+      ]
+    },
+    {
+      "summary": "Harrison posits underlying nasal consonants (N) and oral vowels (V) along with 3 morphophonological processes for Asuriní do Tocantins: (1) rightward MPP, certain verbs roots with initial /p, t, k/ are realized as [m, n, ŋ] after the causative prefix {mo-} (p. 40-41). For this process, Harrison notes that \"certain verb stems which under most conditions begin with stops, begin with corresponding nasals\". The claim that this process only affects \"certain verb stems\" leads us to believe that this process is limited to a certain set of roots in Asuriní do Tocantins, and thus, the morpheme IDs row for the undergoers has been labelled as \"lexically specified roots with initial /p, t, k/; (2) leftward MPP, oralization of root-final /m, n, ŋ/ to [p, t, k] before the dependent suffix {-ta} (p.44-45); (3) leftward MPP, oralization and lenition of /m, n/ to [w, ɾ] before a vowel-initial suffix (p.44-45).",
+      "notes": "Author doesn't mention where data was collected, only that it was from speakers of Asurini (p. 23).",
+      "citation": [
+        "Harrison, Carl H. 1971. The morphophonology of Asuriní words. Tupi Studies, 1(71), 7-4."
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "k",
+            "kʷ",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "ɾ",
+            "w",
+            "j"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "ʃ",
+            "h"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "e",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "m",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "n",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            },
+            {
+              "preceding": "mo+",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "ŋ",
+                  "processnames": [
+                    "MPP=LNsyll:mo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "kʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "kʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+V",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "XMP=LO:NtoW"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "+V",
+              "allophones": [
+                {
+                  "allophone": "ɾ",
+                  "processnames": [
+                    "XMP=LO:NtoW"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "t",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+ta",
+              "allophones": [
+                {
+                  "allophone": "k",
+                  "processnames": [
+                    "MPP=LO:NtoT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɾ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɾ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "j",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʃ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʃ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "e",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "o"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [
+        {
+          "morpheme_id": "mo",
+          "morpheme_type": "prefix",
+          "underlying_form": "mo",
+          "surface_forms": [
+            "mo"
+          ],
+          "gloss": "CAUS"
+        },
+        {
+          "morpheme_id": "ta",
+          "morpheme_type": "suffix",
+          "underlying_form": "ta",
+          "surface_forms": [
+            "ta"
+          ],
+          "gloss": "dependent"
+        }
+      ],
+      "processdetails": [
+        {
+          "processname": "LNsyll:mo",
+          "processtype": "LNsyll",
+          "summary": "Certain roots with initial /p, t, k/ nasalize [m, n, ŋ] after the causative prefix {mo-}",
+          "optionality": "categorical",
+          "directionality": "rightward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "p",
+                "t",
+                "k"
+              ],
+              "positional_restrictions": "{root, initial}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "mo"
+                ],
+                "positional_restrictions": "{prefix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoT",
+          "processtype": "LO",
+          "summary": "Root-final /m, n, ŋ/ oralize to [p, t, k] before the dependent suffix {-ta}",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n",
+                "ŋ"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "ta"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "LO:NtoW",
+          "processtype": "LO",
+          "summary": "Root-final /m, n/ oralize to [w, ɾ] before a vowel-initial suffix",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "m",
+                "n"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "V"
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        }
+      ]
+    },
+    {
+      "summary": "Grammar and speech exercises for learning Asuriní do Tocantins. Nicholson includes a phonemic table (p. 3, 56), but there are no description of nasal-oral processes.",
+      "notes": "This paper is most likely for Asuriní do Tocantins and not Asurini do Xingú based on Nicholson's (1982) Breve estudo da língua Asurini do Xingu notes that this paper and Harrison's (1976) Gramática Asurini are references for Asuriní do Tocantins.",
+      "citation": [
+        "Nicholson, Velda. 1978. Aspectos da língua Assurini. Brasília: Summer Institute of Linguistics."
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "k",
+            "kʷ",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "s",
+            "h"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "ɾ",
+            "w"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "ɛ",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "kʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "kʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "s",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "s"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "tʃ",
+                  "processnames": [
+                    "fortition"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɾ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɾ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "iː",
+                  "processnames": [
+                    "lengthening"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "ɨː",
+                  "processnames": [
+                    "lengthening"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɛ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɛ"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "ɛː",
+                  "processnames": [
+                    "lengthening"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "aː",
+                  "processnames": [
+                    "lengthening"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "o"
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: US",
+              "following": "TODO: US",
+              "allophones": [
+                {
+                  "allophone": "oː",
+                  "processnames": [
+                    "lengthening"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [],
+      "processdetails": []
+    },
+    {
+      "summary": "Cabral et al. posit underlying nasal consonants (N) and oral vowels (V), along with 3 processes for Asuriní do Tocantins: (1) leftward LN, light nasalization of oral vowels in stressed syllables before a tautosyllabic nasal consonant (p.26); (2) BN, boundary nasalization of /w, ɾ, k/ to [m, n, ŋ] \"before silence\" (p.27); (3) leftward MPP, nasalization of root-final /k/ to [ŋ] before all derivational and inflection suffixes except when before the gerund {-a} and the nominalizer {-aw} (p.27). Cabral et al. include the prohibitive suffixe {-eme} and the intensifier suffix {-ete} as two of the possible triggers in their examples. We include those suffixes as part of the environment for this process in the allophones list. It should be noted that since Cabral et al. claim this process is triggered by most derivational and inflectional suffixes, the inclusion of {-eme} and {-ete} as triggers in the allophones list is not meant to be exhaustive, but is meant to represent what the authors argue based on the data they include.",
+      "notes": "Cabral et al. note that Asurini do Tocantins lost its nasal vowels and therefore lost the constrat between oral/nasal vowels (p. 27). The authors note that vowels are lightly nasalized before nasal consonants (\"Todas as vogais podem ser realizadas ligeiramente nasalizadas em sílaba acentuada diante de uma consoante nasal\", p.26). We use the diaresis to represent this process, i.e. [ë].  Vowels are shortened in final unstressed syllables (p. 26). We use [ĕ] to represent this process. Vowels are laryngealized before or after /ʔ/ (p. 26). In the allophones list, a tilde underneath the vowel represents this process [ḛ].  The vowels [i] and [o] are deleted if they are in the environment of vowel or semivowel of a similar quality (p. 27): [i] is deleted following [j] while [o] is deleted following [o]. The vowel [o] can also be dipthongized to [w] when the following vowel is of a different quality than [e] (p. 27).   The authors note that the phonological alternations that occur in Asuriní do Tocantins are very similar to those in Parakanã (p. 25). In C1C2 clusters, the initial C is deleted unless the initial consonant of the cluster is /s/ or the second consonant of the cluster is /t/ (p. 27).",
+      "citation": [
+        "Cabral, Ana Suelly Câmara, Jorge Domigues Lopes, Ariel Pheula do Couto e Silva, & Suseile Andrade de Sousa. 2012. Contribuições para o inventário da língua Asuriní do Tocantins: projeto piloto para a metodologia geral do Inventário Nacional da Diversidade Linguística. Laboratório de Línguas Indígenas, Universidade de Brasília."
+      ],
+      "natural_classes": [
+        {
+          "symbol": "T",
+          "members": [
+            "p",
+            "t",
+            "k",
+            "kʷ",
+            "ʔ"
+          ]
+        },
+        {
+          "symbol": "N",
+          "members": [
+            "m",
+            "n",
+            "ŋ",
+            "ŋʷ"
+          ]
+        },
+        {
+          "symbol": "S",
+          "members": [
+            "s",
+            "h"
+          ]
+        },
+        {
+          "symbol": "R",
+          "members": [
+            "ɾ",
+            "w"
+          ]
+        },
+        {
+          "symbol": "V",
+          "members": [
+            "i",
+            "ɨ",
+            "ɛ",
+            "a",
+            "o"
+          ]
+        }
+      ],
+      "phonemes": [
+        {
+          "phoneme": "p",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "p"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ɨ",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": []
+                },
+                {
+                  "allophone": "pʷ",
+                  "processnames": [
+                    "labialization"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "t",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "t"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "i",
+              "allophones": [
+                {
+                  "allophone": "tʃ",
+                  "processnames": [
+                    "palatalization"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "k",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "k"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "%",
+              "allophones": [
+                {
+                  "allophone": "ŋ",
+                  "processnames": [
+                    "BN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+{eme, ete}",
+              "allophones": [
+                {
+                  "allophone": "ŋ",
+                  "processnames": [
+                    "MPP=SN"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "kʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "kʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ʔ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ʔ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "m",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "n",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ŋʷ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ŋʷ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "s",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "s"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "#",
+              "allophones": [
+                {
+                  "allophone": "j",
+                  "processnames": [
+                    "lenition"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "TODO: @",
+              "following": "TODO: @",
+              "allophones": [
+                {
+                  "allophone": "s",
+                  "processnames": []
+                },
+                {
+                  "allophone": "tʃ",
+                  "processnames": [
+                    "fortition"
+                  ]
+                },
+                {
+                  "allophone": "ts",
+                  "processnames": [
+                    "fortition"
+                  ]
+                },
+                {
+                  "allophone": "ʃ",
+                  "processnames": [
+                    "palatalization"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "h",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɾ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɾ"
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+{a.GER, aw}",
+              "allophones": [
+                {
+                  "allophone": "t",
+                  "processnames": [
+                    "MPP=fortition"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "%",
+              "allophones": [
+                {
+                  "allophone": "n",
+                  "processnames": [
+                    "BN"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "w",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "w"
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": []
+                },
+                {
+                  "allophone": "β",
+                  "processnames": [
+                    "fortition"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "+{a.GER, aw}",
+              "allophones": [
+                {
+                  "allophone": "p",
+                  "processnames": [
+                    "MPP=fortition"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "%",
+              "allophones": [
+                {
+                  "allophone": "m",
+                  "processnames": [
+                    "BN"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "i",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "i"
+                }
+              ]
+            },
+            {
+              "preceding": "$*",
+              "following": "#",
+              "allophones": [
+                {
+                  "allophone": "ɪ̆",
+                  "processnames": [
+                    "vowel shortening"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "{m, n, ŋ}",
+              "allophones": [
+                {
+                  "allophone": "ï",
+                  "processnames": [
+                    "LN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ʔ",
+              "allophones": [
+                {
+                  "allophone": "ḭ",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "ʔ",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "ḭ",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɨ",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "ɨ"
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "{m, n, ŋ}",
+              "allophones": [
+                {
+                  "allophone": "ɨ̈",
+                  "processnames": [
+                    "LN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ʔ",
+              "allophones": [
+                {
+                  "allophone": "ɨ̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "ʔ",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "ɨ̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "ɛ",
+          "environments": [
+            {
+              "preceding": "TODO: @",
+              "following": "TODO: @",
+              "allophones": [
+                {
+                  "allophone": "ɛ",
+                  "processnames": []
+                },
+                {
+                  "allophone": "e",
+                  "processnames": [
+                    "raising"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "$*",
+              "following": "#",
+              "allophones": [
+                {
+                  "allophone": "ĕ",
+                  "processnames": [
+                    "vowel shortening"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "{m, n, ŋ}",
+              "allophones": [
+                {
+                  "allophone": "ɛ̈",
+                  "processnames": [
+                    "LN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ʔ",
+              "allophones": [
+                {
+                  "allophone": "ɛ̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "ʔ",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "ɛ̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "a",
+          "environments": [
+            {
+              "preceding": "",
+              "following": "",
+              "allophones": [
+                {
+                  "processnames": [],
+                  "allophone": "a"
+                }
+              ]
+            },
+            {
+              "preceding": "$*",
+              "following": "#",
+              "allophones": [
+                {
+                  "allophone": "ɐ̆",
+                  "processnames": [
+                    "vowel shortening"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "{m, n, ŋ}",
+              "allophones": [
+                {
+                  "allophone": "ä",
+                  "processnames": [
+                    "LN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ʔ",
+              "allophones": [
+                {
+                  "allophone": "a̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "ʔ",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "a̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phoneme": "o",
+          "environments": [
+            {
+              "preceding": "TODO: @",
+              "following": "TODO: @",
+              "allophones": [
+                {
+                  "allophone": "o",
+                  "processnames": []
+                },
+                {
+                  "allophone": "ʊ",
+                  "processnames": [
+                    "raising"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "{Ca, Cɛ}",
+              "allophones": [
+                {
+                  "allophone": "ʊ",
+                  "processnames": [
+                    "raising"
+                  ]
+                },
+                {
+                  "allophone": "ɔ",
+                  "processnames": [
+                    "lowering"
+                  ]
+                },
+                {
+                  "allophone": "o",
+                  "processnames": []
+                }
+              ]
+            },
+            {
+              "preceding": "$*",
+              "following": "#",
+              "allophones": [
+                {
+                  "allophone": "ŏ",
+                  "processnames": [
+                    "vowel shortening"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "$'",
+              "following": "{m, n, ŋ}",
+              "allophones": [
+                {
+                  "allophone": "ö",
+                  "processnames": [
+                    "LN"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "ʔ",
+              "allophones": [
+                {
+                  "allophone": "o̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "ʔ",
+              "following": "",
+              "allophones": [
+                {
+                  "allophone": "o̰",
+                  "processnames": [
+                    "glottal constriction"
+                  ]
+                }
+              ]
+            },
+            {
+              "preceding": "",
+              "following": "e",
+              "allophones": [
+                {
+                  "allophone": "w",
+                  "processnames": [
+                    "gliding"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "morphemes": [
+        {
+          "morpheme_id": "a.GER",
+          "morpheme_type": "suffix",
+          "underlying_form": "a",
+          "surface_forms": [
+            "a"
+          ],
+          "gloss": "GER"
+        },
+        {
+          "morpheme_id": "aw.NMLZ",
+          "morpheme_type": "suffix",
+          "underlying_form": "aw",
+          "surface_forms": [
+            "aw"
+          ],
+          "gloss": "NMLZ"
+        },
+        {
+          "morpheme_id": "eme",
+          "morpheme_type": "suffix",
+          "underlying_form": "eme",
+          "surface_forms": [
+            "eme"
+          ],
+          "gloss": "PROH"
+        },
+        {
+          "morpheme_id": "ete",
+          "morpheme_type": "suffix",
+          "underlying_form": "ete",
+          "surface_forms": [
+            "ete"
+          ],
+          "gloss": "INTS"
+        }
+      ],
+      "processdetails": [
+        {
+          "processname": "LN",
+          "processtype": "LN",
+          "summary": "Vowels are lightly nasalized in stressed syllables before a tautosyllabic nasal consonant",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "phonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "V"
+              ],
+              "positional_restrictions": "Unspecified"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [
+              {
+                "units": [
+                  "m",
+                  "n",
+                  "ŋ"
+                ],
+                "positional_restrictions": "Unspecified"
+              }
+            ],
+            "morphemes": [],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "BN",
+          "processtype": "BN",
+          "summary": "/w, ɾ, k/ nasalize to [m, n, ŋ] before \"silence\"",
+          "optionality": "categorical",
+          "directionality": "NA",
+          "alternation_type": "phonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "w",
+                "ɾ",
+                "k"
+              ],
+              "positional_restrictions": "{utterance, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        },
+        {
+          "processname": "SN",
+          "processtype": "SN",
+          "summary": "Root-final /k/ nasalizes to [ŋ] before all inflectional person suffixes and derivational suffixes, except a.GER and aw.NMLZ",
+          "optionality": "categorical",
+          "directionality": "leftward",
+          "alternation_type": "morphophonological",
+          "domain": "word-internal",
+          "undergoers": {
+            "segments": {
+              "units": [
+                "k"
+              ],
+              "positional_restrictions": "{root, final}"
+            },
+            "morphemes": {},
+            "suprasegments": {}
+          },
+          "triggers": {
+            "segments": [],
+            "morphemes": [
+              {
+                "units": [
+                  "eme",
+                  "ete",
+                  "etc."
+                ],
+                "positional_restrictions": "{suffix}"
+              }
+            ],
+            "suprasegments": []
+          },
+          "transparent": {
+            "segments": [],
+            "morphemes": []
+          },
+          "opaque": {
+            "segments": [],
+            "morphemes": []
+          }
+        }
+      ]
+    }
+  ]
+}

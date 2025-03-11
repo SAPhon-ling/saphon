@@ -1,0 +1,637 @@
+
+    <html>
+    <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../../lang_info.css" />
+    <script type="text/javascript"> 
+    function dropdown() {
+        const global_dropdown_indices_span = document.getElementById("globalDropdownIndices");
+        const global_dropdown_indices_raw = global_dropdown_indices_span.getAttribute("data-set");
+        const global_dropdown_indices_array = JSON.parse(global_dropdown_indices_raw);
+        for (var i = 0; i < global_dropdown_indices_array.length; i += 1) {
+            let this_mother = "mother-" + global_dropdown_indices_array[i];
+            let this_child = "child-" + global_dropdown_indices_array[i];
+            let mother_span = document.getElementById(this_mother);
+            let child_span = document.getElementById(this_child);
+            mother_span.addEventListener("click", function () {
+                if (child_span.style.display === "none" || child_span.style.display === "") {
+                    child_span.style.display = "inline";
+                } else {
+                    child_span.style.display = "none";
+                }
+            });
+        }
+    }
+    
+    function initialize() {
+        dropdown();
+    }
+     </script>
+    </head>
+    <body onload="initialize()">
+    
+    <div class=entry>
+    
+    <h1>Parakanã</h1>
+    <div class=field><div class=key>Alternate name(s)</div><div class=value>None</div></div>
+    <div class=field><div class=key>ISO code(s)</div><div class=value>pak</div></div>
+    <div class=field><div class=key>Glottolog code</div><div class=value>para1312</div></div>
+    <div class=field><div class=key>Location</div><div class=value>-5.822° -52.511°; Unspecified meters</div></div></div>
+    <div class=field><div class=key>Family</div><div class=value>Tupí</div></div>
+    <h2>Consonants</h2><table><tr><th></th><th>Bilabial</th><th>Labiodental</th><th>Alveolar</th><th>Postalveolar</th><th>Palatal</th><th>Velar</th><th>Glottal</th><th>Other</th></tr>
+            <tr id="Stop"><th>Stop</th>
+            <td>
+                            <span id="p" class="visible-phoneme"> p </span>
+                            
+                            <span id="b" class="visible-allophone"> b </span>
+                            </td><td></td><td>
+                            <span id="t" class="visible-phoneme"> t </span>
+                            </td><td></td><td></td><td>
+                            <span id="kʷ" class="visible-phoneme"> kʷ </span>
+                            
+                            <span id="k" class="visible-phoneme"> k </span>
+                            
+                            <span id="ɡ" class="visible-allophone"> ɡ </span>
+                            
+                            <span id="ɡʷ" class="visible-allophone"> ɡʷ </span>
+                            </td><td>
+                            <span id="ʔ" class="visible-phoneme"> ʔ </span>
+                            </td><td></td></tr>
+            <tr id="Fricative"><th>Fricative</th>
+            <td>
+                            <span id="β" class="visible-allophone"> β </span>
+                            </td><td>
+                            <span id="v" class="visible-allophone"> v </span>
+                            </td><td>
+                            <span id="s" class="visible-phoneme"> s </span>
+                            </td><td>
+                            <span id="ʃ" class="visible-allophone"> ʃ </span>
+                            
+                            <span id="ʒ" class="visible-allophone"> ʒ </span>
+                            </td><td></td><td>
+                            <span id="x" class="visible-allophone"> x </span>
+                            </td><td>
+                            <span id="h" class="visible-phoneme"> h </span>
+                            </td><td></td></tr>
+            <tr id="Affricate"><th>Affricate</th>
+            <td></td><td></td><td>
+                            <span id="ts" class="visible-allophone"> ts </span>
+                            </td><td>
+                            <span id="tʃ" class="visible-phoneme"> tʃ </span>
+                            
+                            <span id="dʒ" class="visible-allophone"> dʒ </span>
+                            </td><td></td><td></td><td></td><td></td></tr>
+            <tr id="Nasal"><th>Nasal</th>
+            <td>
+                            <span id="m" class="visible-phoneme"> m </span>
+                            </td><td></td><td>
+                            <span id="n" class="visible-phoneme"> n </span>
+                            </td><td></td><td></td><td>
+                            <span id="ŋ" class="visible-allophone"> ŋ </span>
+                            </td><td></td><td></td></tr>
+            <tr id="Tap, Flap"><th>Tap, Flap</th>
+            <td></td><td></td><td>
+                            <span id="ɾ" class="visible-phoneme"> ɾ </span>
+                            </td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr id="Lateral"><th>Lateral</th>
+            <td></td><td></td><td>
+                            <span id="l" class="visible-allophone"> l </span>
+                            </td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr id="Approximant"><th>Approximant</th>
+            <td></td><td></td><td></td><td></td><td>
+                            <span id="j" class="visible-phoneme"> j </span>
+                            </td><td></td><td></td><td>
+                            <span id="w" class="visible-phoneme"> w </span>
+                            </td></tr></table><h2>Vowels</h2><table><tr><th></th><th>Front</th><th>Center</th><th>Back</th></tr>
+            <tr id="High"><th>High</th>
+            <td>
+                            <span id="ĩ" class="visible-phoneme"> ĩ </span>
+                            
+                            <span id="i" class="visible-phoneme"> i </span>
+                            
+                            <span id="y" class="visible-allophone"> y </span>
+                            </td><td>
+                            <span id="ɨ̃" class="visible-phoneme"> ɨ̃ </span>
+                            
+                            <span id="ɨ" class="visible-phoneme"> ɨ </span>
+                            
+                            <span id="ʉ" class="visible-allophone"> ʉ </span>
+                            </td><td>
+                            <span id="u" class="visible-allophone"> u </span>
+                            </td></tr>
+            <tr id="Low-High"><th>Low-High</th>
+            <td></td><td></td><td>
+                            <span id="ʊ" class="visible-allophone"> ʊ </span>
+                            </td></tr>
+            <tr id="High-Mid"><th>High-Mid</th>
+            <td>
+                            <span id="e" class="visible-phoneme"> e </span>
+                            
+                            <span id="ẽ" class="visible-phoneme"> ẽ </span>
+                            </td><td></td><td>
+                            <span id="o" class="visible-phoneme"> o </span>
+                            
+                            <span id="õ" class="visible-phoneme"> õ </span>
+                            </td></tr>
+            <tr id="Mid"><th>Mid</th>
+            <td></td><td>
+                            <span id="ə" class="visible-allophone"> ə </span>
+                            </td><td></td></tr>
+            <tr id="Low-Mid"><th>Low-Mid</th>
+            <td>
+                            <span id="ɛ" class="visible-allophone"> ɛ </span>
+                            </td><td></td><td>
+                            <span id="ɔ" class="visible-allophone"> ɔ </span>
+                            </td></tr>
+            <tr id="Low"><th>Low</th>
+            <td></td><td>
+                            <span id="a" class="visible-phoneme"> a </span>
+                            
+                            <span id="ã" class="visible-phoneme"> ã </span>
+                            </td><td>
+                            <span id="ɒ" class="visible-allophone"> ɒ </span>
+                            </td></tr></table><h2>Natural classes</h2><table><tr><th>Symbol</th><th>Members</th></tr>
+<tr><td>T</td><td>p, t, tʃ, k, kʷ, ʔ</td></tr>
+<tr><td>N</td><td>m, n, ŋ, ɴ</td></tr>
+<tr><td>S</td><td>s, h</td></tr>
+<tr><td>R</td><td>ɾ, j, w</td></tr>
+<tr><td>V</td><td>i, ɨ, e, a, o</td></tr>
+<tr><td>Ṽ</td><td>ĩ, ɨ̃, ẽ, ã, õ</td></tr>
+</table>
+
+        <div class=field><h2>Lost Phonemes</h2>{'∅', 'ö', 'ï', 'ä', 'ɨ̈', 'ë'}</div>
+        
+    <div class=field><h2>Processes</h2>
+    <div class="processtable"><table><tr><th>Phoneme</th><th>Processes</th></tr>
+    
+            <tr><th> /p/ </th><td>
+            
+                
+                        <span class="process" id="mother-4629d39f-dccd-4e21-80fd-b3496937fb31">/p/ &#8594; [b] / TODO: @_TODO: @ </span> <span class="processname" id="child-4629d39f-dccd-4e21-80fd-b3496937fb31"> <br> voicing </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-c37c9f64-5389-4288-a169-b2ebcfaa9304">/p/ &#8594; [m] / TODO: &_TODO: & </span> <span class="processname" id="child-c37c9f64-5389-4288-a169-b2ebcfaa9304"> <br> ONAllm:m 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /k/ </th><td>
+            
+                
+                        <span class="process" id="mother-be8e0d5b-1442-4372-a4be-003c268cd14e">/k/ &#8594; [ɡ] / _{o, a} </span> <span class="processname" id="child-be8e0d5b-1442-4372-a4be-003c268cd14e"> <br> voicing </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-bcc64f26-1a56-44bd-b462-0446f2e09570">/k/ &#8594; [ŋ] / _# </span> <span class="processname" id="child-bcc64f26-1a56-44bd-b462-0446f2e09570"> <br> Nasal Boundary 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /kʷ/ </th><td>
+            
+                
+                        <span class="process" id="mother-ca4659bc-f872-4bdc-aea7-5d2ac982e55f">/kʷ/ &#8594; [ɡʷ] / _{o, a} </span> <span class="processname" id="child-ca4659bc-f872-4bdc-aea7-5d2ac982e55f"> <br> voicing </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /tʃ/ </th><td>
+            
+                
+                        <span class="process" id="mother-92d507fa-7d1f-473a-a8e8-4ef64322a624">/tʃ/ &#8594; [ts] / TODO: @_TODO: @ </span> <span class="processname" id="child-92d507fa-7d1f-473a-a8e8-4ef64322a624"> <br> depalatalization </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /m/ </th><td>
+            
+                
+                        <span class="process" id="mother-f06e3acc-e921-472d-a38d-837fcd21d9c7">/m/ &#8594; [∅] / Ṽ_ </span> <span class="processname" id="child-f06e3acc-e921-472d-a38d-837fcd21d9c7"> <br>  </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /n/ </th><td>
+            
+                
+                        <span class="process" id="mother-1f709b4d-b678-4336-8fd7-bb0b0050f168">/n/ &#8594; [∅] / Ṽ_ </span> <span class="processname" id="child-1f709b4d-b678-4336-8fd7-bb0b0050f168"> <br>  </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /s/ </th><td>
+            
+                
+                        <span class="process" id="mother-8c635c28-8929-486d-9d22-52ab3a9fbd28">/s/ &#8594; [tʃ] / TODO: @_TODO: @ </span> <span class="processname" id="child-8c635c28-8929-486d-9d22-52ab3a9fbd28"> <br> fortition </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-613bbb1e-91da-464d-84ba-03d093e564fe">/s/ &#8594; [ʃ] / TODO: @_TODO: @ </span> <span class="processname" id="child-613bbb1e-91da-464d-84ba-03d093e564fe"> <br> palatalization </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-60f0d33d-60a5-48d9-9ebd-b9314e171bc3">/s/ &#8594; [ʒ] / TODO: @_TODO: @ </span> <span class="processname" id="child-60f0d33d-60a5-48d9-9ebd-b9314e171bc3"> <br> palatalizationvoicing </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /h/ </th><td>
+            
+                
+                        <span class="process" id="mother-f8308df3-09ef-402d-89e0-9431fa05f0f7">/h/ &#8594; [x] / _ɨ </span> <span class="processname" id="child-f8308df3-09ef-402d-89e0-9431fa05f0f7"> <br> fortition </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /j/ </th><td>
+            
+                
+                        <span class="process" id="mother-8e694928-9b0f-44df-a973-462d2d2ebbc4">/j/ &#8594; [dʒ] / _{ʊ, a} </span> <span class="processname" id="child-8e694928-9b0f-44df-a973-462d2d2ebbc4"> <br> fortition </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /w/ </th><td>
+            
+                
+                        <span class="process" id="mother-458ee9a0-4956-402d-a40d-6f0a1b751cfb">/w/ &#8594; [β] / {i, ɨ}_ </span> <span class="processname" id="child-458ee9a0-4956-402d-a40d-6f0a1b751cfb"> <br> fortition </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-0703c8a9-32ee-4fd1-a05e-352f6306e6f9">/w/ &#8594; [v] / {a, u, o}_ </span> <span class="processname" id="child-0703c8a9-32ee-4fd1-a05e-352f6306e6f9"> <br> fortition </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /ɾ/ </th><td>
+            
+                
+                        <span class="process" id="mother-e50b9d55-d170-4244-aec7-35c9e78ec4bb">/ɾ/ &#8594; [l] / _# </span> <span class="processname" id="child-e50b9d55-d170-4244-aec7-35c9e78ec4bb"> <br> lateralization </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /i/ </th><td>
+            
+                
+                        <span class="process" id="mother-0bf309d8-f9b5-4e95-908c-cecb6387eebb">/i/ &#8594; [y] / {kʷ, ɡʷ, w}_ </span> <span class="processname" id="child-0bf309d8-f9b5-4e95-908c-cecb6387eebb"> <br> rounding </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-6a83397d-bbc6-4d0f-9465-2709ff52fd68">/i/ &#8594; [ĩ] / $'{m, n}_{m, n} </span> <span class="processname" id="child-6a83397d-bbc6-4d0f-9465-2709ff52fd68"> <br> Local Nasalization 2 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-1c21090f-ab51-4615-a0f8-9a39077cf417">/i/ &#8594; [ï] / $*_{m, n} </span> <span class="processname" id="child-1c21090f-ab51-4615-a0f8-9a39077cf417"> <br> Local Nasalization 3 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-69ad18e5-edd6-4d96-913d-8a9128e5cce5">/i/ &#8594; [ĩ] / _{m, n} </span> <span class="processname" id="child-69ad18e5-edd6-4d96-913d-8a9128e5cce5"> <br> Local Nasalization 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /ɨ/ </th><td>
+            
+                
+                        <span class="process" id="mother-01e81a92-5f47-408a-b977-c1f71d5b6d2b">/ɨ/ &#8594; [ʉ] / {kʷ, ɡʷ, w}_ </span> <span class="processname" id="child-01e81a92-5f47-408a-b977-c1f71d5b6d2b"> <br> rounding </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-14b7ed37-c100-4551-80c5-4e29ac7a46d7">/ɨ/ &#8594; [ɨ̃] / $'{m, n}_{m, n} </span> <span class="processname" id="child-14b7ed37-c100-4551-80c5-4e29ac7a46d7"> <br> Local Nasalization 2 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-422aa18f-b490-438a-8726-37a171b366d3">/ɨ/ &#8594; [ɨ̈] / $*_{m, n} </span> <span class="processname" id="child-422aa18f-b490-438a-8726-37a171b366d3"> <br> Local Nasalization 3 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-0ecded9e-6a1b-42a2-bb0b-50f331761212">/ɨ/ &#8594; [ɨ̃] / _{m, n} </span> <span class="processname" id="child-0ecded9e-6a1b-42a2-bb0b-50f331761212"> <br> Local Nasalization 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /e/ </th><td>
+            
+                
+                        <span class="process" id="mother-d9a0534b-3ec6-4f89-a50f-968f9ddb2b41">/e/ &#8594; [ɛ] / $'_ </span> <span class="processname" id="child-d9a0534b-3ec6-4f89-a50f-968f9ddb2b41"> <br> lowering </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-fbd9d920-8524-4f26-bc43-102d2c27cb91">/e/ &#8594; [ẽ] / $'{m, n}_{m, n} </span> <span class="processname" id="child-fbd9d920-8524-4f26-bc43-102d2c27cb91"> <br> Local Nasalization 2 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-e528323a-944a-4de4-9b4b-21399289c29d">/e/ &#8594; [ë] / $*_{m, n} </span> <span class="processname" id="child-e528323a-944a-4de4-9b4b-21399289c29d"> <br> Local Nasalization 3 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-6faf4374-7712-40f8-9eb3-2111b1ca3c9c">/e/ &#8594; [ẽ] / _{m, n} </span> <span class="processname" id="child-6faf4374-7712-40f8-9eb3-2111b1ca3c9c"> <br> Local Nasalization 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /o/ </th><td>
+            
+                
+                        <span class="process" id="mother-0e657742-2cba-43d1-8924-0cc040cf54cb">/o/ &#8594; [ɔ] / TODO: @_TODO: @ </span> <span class="processname" id="child-0e657742-2cba-43d1-8924-0cc040cf54cb"> <br> lowering </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-edf7fc66-6b0d-446a-924d-aec5d15412b2">/o/ &#8594; [u] / $'_# </span> <span class="processname" id="child-edf7fc66-6b0d-446a-924d-aec5d15412b2"> <br> raising </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-37162bac-39a7-46e2-8e67-081b66d75eaa">/o/ &#8594; [ʊ] / $*_# </span> <span class="processname" id="child-37162bac-39a7-46e2-8e67-081b66d75eaa"> <br> raising </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-874e82e5-aa00-401c-8b5c-6ae89ece871c">/o/ &#8594; [õ] / $'{m, n}_{m, n} </span> <span class="processname" id="child-874e82e5-aa00-401c-8b5c-6ae89ece871c"> <br> Local Nasalization 2 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-ae913fb8-8436-411e-9c23-d67f29bb441a">/o/ &#8594; [ö] / $*_{m, n} </span> <span class="processname" id="child-ae913fb8-8436-411e-9c23-d67f29bb441a"> <br> Local Nasalization 3 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-d62d985d-674a-4170-be87-abea5777c2be">/o/ &#8594; [õ] / _{m, n} </span> <span class="processname" id="child-d62d985d-674a-4170-be87-abea5777c2be"> <br> Local Nasalization 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+            <tr><th> /a/ </th><td>
+            
+                
+                        <span class="process" id="mother-2c4d77e7-67b5-4445-a24f-f11ed6cadb00">/a/ &#8594; [ɒ] / {kʷ, ɡʷ, w}_ </span> <span class="processname" id="child-2c4d77e7-67b5-4445-a24f-f11ed6cadb00"> <br> backingrounding </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-7e402638-eedf-42e5-9f20-b18ec141f106">/a/ &#8594; [ə] / $*_# </span> <span class="processname" id="child-7e402638-eedf-42e5-9f20-b18ec141f106"> <br> centralization </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-93734b8e-a71d-4ca3-a207-1a921d2b168b">/a/ &#8594; [ã] / $'{m, n}_{m, n} </span> <span class="processname" id="child-93734b8e-a71d-4ca3-a207-1a921d2b168b"> <br> Local Nasalization 2 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-d476694a-3d8d-4369-8ec0-6d85018f9ea1">/a/ &#8594; [ä] / $*_{m, n} </span> <span class="processname" id="child-d476694a-3d8d-4369-8ec0-6d85018f9ea1"> <br> Local Nasalization 3 </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-08e31c14-381b-4591-8396-8a863089bb7e">/a/ &#8594; [ã] / _{m, n} </span> <span class="processname" id="child-08e31c14-381b-4591-8396-8a863089bb7e"> <br> N:strong </span>
+                         <br>
+                <br>
+                
+                        <span class="process" id="mother-b95ad4a4-4979-4d7b-b23b-6eb40cc75d26">/a/ &#8594; [ã] / _{m, n} </span> <span class="processname" id="child-b95ad4a4-4979-4d7b-b23b-6eb40cc75d26"> <br> Local Nasalization 1 </span>
+                         <br>
+            
+            </td></tr>
+            
+    </table></div>
+    </div>
+    <div class=field><h2>Process Details</h2>
+        <span class="process-title">ONAllm:m 1</span>
+        <div><table class="processDescTable">
+        <tr><th><span class="process-descriptor">Abbreviation: </span></th><td><span class="process-description"> ONAllm:m </span></td></tr>
+        <tr><th><span class="process-descriptor">Type: </span></th><td><span class="process-description"> ONAllm </span></td></tr>
+        <tr><th><span class="process-descriptor">Description: </span></th><td><span class="process-description"> /p/ in the suffixes {pe, ipe} nasalize to [m] when preceding root-final syllable contains a nasal consonant </span></td></tr>
+        <tr><th><span class="process-descriptor">Optionality: </span></th><td><span class="process-description"> categorical </span></td></tr>
+        <tr><th><span class="process-descriptor">Directionality: </span></th><td><span class="process-description"> rightward </span></td></tr>
+        <tr><th><span class="process-descriptor">Alternation Type: </span></th><td><span class="process-description"> morphological </span></td></tr>
+        <tr><th><span class="process-descriptor">Domain: </span></th><td><span class="process-description"> word-internal </span></td></tr>
+        <tr><th><span class="process-descriptor">Undergoers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-5cb742d5-2b17-44cb-bd3c-d82c342a12a2> &#9660 </button>
+            <span class="pd-subsection" id=child-5cb742d5-2b17-44cb-bd3c-d82c342a12a2> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> p </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {suffix} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Triggers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-32689b5b-ec5d-4834-88b6-3b9cbaf8dc44> &#9660 </button>
+            <span class="pd-subsection" id=child-32689b5b-ec5d-4834-88b6-3b9cbaf8dc44> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> {m, n, ŋ} </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {root, final} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Transparent: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Opaque: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        </table></div>
+        <br><br>
+        
+        <span class="process-title">Local Nasalization 1</span>
+        <div><table class="processDescTable">
+        <tr><th><span class="process-descriptor">Abbreviation: </span></th><td><span class="process-description"> LN:strong </span></td></tr>
+        <tr><th><span class="process-descriptor">Type: </span></th><td><span class="process-description"> LN </span></td></tr>
+        <tr><th><span class="process-descriptor">Description: </span></th><td><span class="process-description"> Root-final /m, n, ŋ/ triggers "strong" nasalization of the preceding vowel, the nasal consonant can optionally delete </span></td></tr>
+        <tr><th><span class="process-descriptor">Optionality: </span></th><td><span class="process-description"> categorical </span></td></tr>
+        <tr><th><span class="process-descriptor">Directionality: </span></th><td><span class="process-description"> leftward </span></td></tr>
+        <tr><th><span class="process-descriptor">Alternation Type: </span></th><td><span class="process-description"> phonological </span></td></tr>
+        <tr><th><span class="process-descriptor">Domain: </span></th><td><span class="process-description"> word-internal </span></td></tr>
+        <tr><th><span class="process-descriptor">Undergoers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-a7c05837-bbe8-4164-8a0e-a071fac1f86b> &#9660 </button>
+            <span class="pd-subsection" id=child-a7c05837-bbe8-4164-8a0e-a071fac1f86b> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> V </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {stressed syllable, coda} > {root, final} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Triggers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-b07f6722-e020-4fa1-bf6d-aa45586eaeba> &#9660 </button>
+            <span class="pd-subsection" id=child-b07f6722-e020-4fa1-bf6d-aa45586eaeba> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> {m, n, ŋ} </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {stressed syllable, nucleus} > {root, final} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Transparent: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Opaque: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        </table></div>
+        <br><br>
+        
+        <span class="process-title">Nasal Boundary 1</span>
+        <div><table class="processDescTable">
+        <tr><th><span class="process-descriptor">Abbreviation: </span></th><td><span class="process-description"> BN:k </span></td></tr>
+        <tr><th><span class="process-descriptor">Type: </span></th><td><span class="process-description"> BN </span></td></tr>
+        <tr><th><span class="process-descriptor">Description: </span></th><td><span class="process-description"> /k/ nasalizes to [ŋ] word-finally </span></td></tr>
+        <tr><th><span class="process-descriptor">Optionality: </span></th><td><span class="process-description"> categorical </span></td></tr>
+        <tr><th><span class="process-descriptor">Directionality: </span></th><td><span class="process-description"> NA </span></td></tr>
+        <tr><th><span class="process-descriptor">Alternation Type: </span></th><td><span class="process-description"> phonological </span></td></tr>
+        <tr><th><span class="process-descriptor">Domain: </span></th><td><span class="process-description"> word-internal </span></td></tr>
+        <tr><th><span class="process-descriptor">Undergoers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-42429725-6f0a-4f9b-9e09-d7f9e4f58aea> &#9660 </button>
+            <span class="pd-subsection" id=child-42429725-6f0a-4f9b-9e09-d7f9e4f58aea> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> k </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {syllable, coda} > {root, final} > {word, final} > {utterance, final} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Triggers: </span></th><td>
+        
+            <span class="na"> NA </span><br></td></tr>
+            
+        <tr><th><span class="process-descriptor">Transparent: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Opaque: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        </table></div>
+        <br><br>
+        
+        <span class="process-title">Local Nasalization 2</span>
+        <div><table class="processDescTable">
+        <tr><th><span class="process-descriptor">Abbreviation: </span></th><td><span class="process-description"> LN:circumdirectional </span></td></tr>
+        <tr><th><span class="process-descriptor">Type: </span></th><td><span class="process-description"> LN </span></td></tr>
+        <tr><th><span class="process-descriptor">Description: </span></th><td><span class="process-description"> In a stressed syllable, oral vowels strongly nasalize between two nasal consonants </span></td></tr>
+        <tr><th><span class="process-descriptor">Optionality: </span></th><td><span class="process-description"> categorical </span></td></tr>
+        <tr><th><span class="process-descriptor">Directionality: </span></th><td><span class="process-description"> circumdirectional </span></td></tr>
+        <tr><th><span class="process-descriptor">Alternation Type: </span></th><td><span class="process-description"> phonological </span></td></tr>
+        <tr><th><span class="process-descriptor">Domain: </span></th><td><span class="process-description"> word-internal </span></td></tr>
+        <tr><th><span class="process-descriptor">Undergoers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-cf23651c-439f-4741-b2f8-4448397bef67> &#9660 </button>
+            <span class="pd-subsection" id=child-cf23651c-439f-4741-b2f8-4448397bef67> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> V </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {stressed syllable} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Triggers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-c483855c-779d-4fe9-8444-15a3472682f8> &#9660 </button>
+            <span class="pd-subsection" id=child-c483855c-779d-4fe9-8444-15a3472682f8> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> {m, n} </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {stressed syllable, onset} </span><br><br>
+            
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> {m, n}{m, n} </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {stressed syllable, coda} </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Transparent: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Opaque: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        </table></div>
+        <br><br>
+        
+        <span class="process-title">Local Nasalization 3</span>
+        <div><table class="processDescTable">
+        <tr><th><span class="process-descriptor">Abbreviation: </span></th><td><span class="process-description"> LN:leftward </span></td></tr>
+        <tr><th><span class="process-descriptor">Type: </span></th><td><span class="process-description"> LN </span></td></tr>
+        <tr><th><span class="process-descriptor">Description: </span></th><td><span class="process-description"> In an unstressed syllable, oral vowels weakly nasalize before a nasal consonant </span></td></tr>
+        <tr><th><span class="process-descriptor">Optionality: </span></th><td><span class="process-description"> categorical </span></td></tr>
+        <tr><th><span class="process-descriptor">Directionality: </span></th><td><span class="process-description"> leftward </span></td></tr>
+        <tr><th><span class="process-descriptor">Alternation Type: </span></th><td><span class="process-description"> phonological </span></td></tr>
+        <tr><th><span class="process-descriptor">Domain: </span></th><td><span class="process-description"> word-internal </span></td></tr>
+        <tr><th><span class="process-descriptor">Undergoers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-5b2cc70f-6336-42c3-bd5b-df248d7c6866> &#9660 </button>
+            <span class="pd-subsection" id=child-5b2cc70f-6336-42c3-bd5b-df248d7c6866> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> V </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> {unstressed syllable}  </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Triggers: </span></th><td>
+        
+            <button class="dropdown-button" id=mother-1bb87622-ae71-4d45-ad18-6ed4dfa07303> &#9660 </button>
+            <span class="pd-subsection" id=child-1bb87622-ae71-4d45-ad18-6ed4dfa07303> 
+    <span class="process-descriptor-sub">Segments: </span>
+    <br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Units: </span><span class="process-description"> {m, n, ŋ} </span><br>
+            <span class="process-descriptor-sub">&nbsp;&nbsp;&nbsp;&nbsp;-Positional Restrictions: </span><span class="process-description"> Uncertain </span><br><br>
+            
+    <span class="process-descriptor-sub">Morphemes: </span>
+    
+        <span class="process-descriptor-sub">NA</span><br><br>
+         </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Transparent: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        <tr><th><span class="process-descriptor">Opaque: </span></th><td>
+        
+            <span class="na"> NA </span></td></tr>
+            
+        </table></div>
+        <br><br>
+        </div>
+    
+    <div class=field><h2>Summary</h2><p>Our synthesis for Parakanã largely followes Gomes' more detailed (1991) description, with some aspects adopted from Souza e Silva's (1999) more recent description. We follow Gomes in assuming a series of underlying nasal consonants (N), and in positing the following processes: (1) circumdirectional LN, "strong" nasalization of oral vowels in a stressed syllable when between two nasal consonants; (2) leftward LN, "weak" nasalization of oral vowels when located in an unstressed syllable before a nasal consonant; (3) non-directional BN, boundary nasalization of /k/ to [ŋ] word-finally; (4) leftward LN, a root-final nasal consonant optionally deletes triggering obligatory nasalization of the preceding vowel. This results in different surface forms of the same word: /imen/ → [ĩˡmɛ̃nə] ~ [ĩˡmɛ̃] 'marido', /ɨwɨn/ → [ɨˡwʉ̃nə] ~ [ɨˡwʉ̃] 'céu, nuvem' (Gomes, 1991:53). We differ from Gomes, however in positing the existence of underlying nasal vowels. Gomes accounts for the surface nasal vowels that we take to derive from underlying nasal vowels by positing "theoretical nasal consonants" that never surface, but trigger leftward LN and then delete, resulting in nasalization of the preceding vowel in a word's surface form: /mɨtoNʔa/ → [mɨˡtũʔə] 'mutum', /moʔaN/ → [moˡʔã] 'remédio', /maʔeaʔaN/ → [maˡʔɛaˡʔã] 'carne' (Gomes, 1991:64). This mechanism strikes us as essentially an empirically unfalsifiable representational device intended to simplify the phonological inventory of the language.  It is worth noting that Parakanã appears to have gone through a (recent) diachronic stage where it lost contrastive nasal vowels, as both Souza e Silva's (1999) and Gomes' (1991) descriptions for this language only include oral vowels in the phonemic inventory. However, Gomes' representations and analysis indicates that nasal vowels are rephonologizing in Parakanã due to the ongoing loss of coda nasals that trigger leftward LN.   We further differ from Gomes' analysis in the following ways: (1) we assume /ŋ/ to be a phoneme and not only an allophone of /k/. Our main reason for doing so is that Souza e Silva (1999) provides data that shows that /ŋ/ does appear non-word-finally, i.e. [ŋɨŋɛ] 'mulherada' (Souza e Silva, 1999:24), a position that according to Gomes' analysis only [k] should surface. In other words, [ŋ] has two sources, as an allophone of /k/ due to a boundary nasalization process that operates word-finally, and as an allophone of /ŋ/, where it surfaces as [ŋ], non-word-finally.  (2) Followinɡ Souza e Silva (1999), we posit /tʃ/ to be its own phoneme, rather than taking all instances of [tʃ] to be allophones of /s/.   The reasoning here is somewhat complicated: Gomes identifies two sets of variation: [ts ~ tʃ] and [ts ~ tʃ ~ ʃ ~ ʒ] and separately [s]/_e, which leads her to treat all surface phones as allophones of a single phoneme, i.e., /s/. However, these two sets of alternants have different historical sources, suggesting that they actually derive from two different phonemes with partially overlapping allophones, namely *t > [ts ~ tʃ] and *j > [ts ~ tʃ ~ ʃ ~ ʒ] and [s]. This, in turn, leads us to posit that the two sets of allophones belong to different phonemes, which we take to be /tʃ/ and /s/ respectively.  We adopt one process from Souza e Silva: (1) rightward ONAllm, nasalization of /p/ in the locative suffixes -pe, -ipe to [m] when the preceding root contains a nasal consonant.</p></div>
+    <div class=field><h2>Notes</h2><p>We diverge from Gomes' claim that /k, kʷ/ voice to [ɡ, ɡʷ] before [ʊ] and instead believe this process is triggered by /o/. Since [ʊ] is an allophone of /o/, it is more plausible to believe that voicing of /k, kʷ/ is triggered by an underlying phoneme, rather than one of an allophone that is restricted to certain environments.   We use the diaresis [ï] to differentiate "weakly" nasalized vowels from "strong" nasalized vowels [ĩ].</p></div>
+    
+    <div class=field><h2><a href="/en/ref_inv/Parakana.html">References</h2></div>
+    
+    </div>
+    <div class="hidden" id="globalDropdownIndices" data-set='["f06e3acc-e921-472d-a38d-837fcd21d9c7", "cf23651c-439f-4741-b2f8-4448397bef67", "422aa18f-b490-438a-8726-37a171b366d3", "1bb87622-ae71-4d45-ad18-6ed4dfa07303", "4629d39f-dccd-4e21-80fd-b3496937fb31", "5b2cc70f-6336-42c3-bd5b-df248d7c6866", "874e82e5-aa00-401c-8b5c-6ae89ece871c", "ae913fb8-8436-411e-9c23-d67f29bb441a", "458ee9a0-4956-402d-a40d-6f0a1b751cfb", "c37c9f64-5389-4288-a169-b2ebcfaa9304", "8e694928-9b0f-44df-a973-462d2d2ebbc4", "e528323a-944a-4de4-9b4b-21399289c29d", "b95ad4a4-4979-4d7b-b23b-6eb40cc75d26", "92d507fa-7d1f-473a-a8e8-4ef64322a624", "c483855c-779d-4fe9-8444-15a3472682f8", "e50b9d55-d170-4244-aec7-35c9e78ec4bb", "be8e0d5b-1442-4372-a4be-003c268cd14e", "37162bac-39a7-46e2-8e67-081b66d75eaa", "6a83397d-bbc6-4d0f-9465-2709ff52fd68", "bcc64f26-1a56-44bd-b462-0446f2e09570", "b07f6722-e020-4fa1-bf6d-aa45586eaeba", "94a71e59-7997-4a7e-be13-641f580e3953", "d476694a-3d8d-4369-8ec0-6d85018f9ea1", "6faf4374-7712-40f8-9eb3-2111b1ca3c9c", "8c635c28-8929-486d-9d22-52ab3a9fbd28", "fbd9d920-8524-4f26-bc43-102d2c27cb91", "42429725-6f0a-4f9b-9e09-d7f9e4f58aea", "613bbb1e-91da-464d-84ba-03d093e564fe", "32689b5b-ec5d-4834-88b6-3b9cbaf8dc44", "0703c8a9-32ee-4fd1-a05e-352f6306e6f9", "0e657742-2cba-43d1-8924-0cc040cf54cb", "93734b8e-a71d-4ca3-a207-1a921d2b168b", "d62d985d-674a-4170-be87-abea5777c2be", "2c4d77e7-67b5-4445-a24f-f11ed6cadb00", "7e402638-eedf-42e5-9f20-b18ec141f106", "edf7fc66-6b0d-446a-924d-aec5d15412b2", "5cb742d5-2b17-44cb-bd3c-d82c342a12a2", "1f709b4d-b678-4336-8fd7-bb0b0050f168", "08e31c14-381b-4591-8396-8a863089bb7e", "60f0d33d-60a5-48d9-9ebd-b9314e171bc3", "d9a0534b-3ec6-4f89-a50f-968f9ddb2b41", "a7c05837-bbe8-4164-8a0e-a071fac1f86b", "1c21090f-ab51-4615-a0f8-9a39077cf417", "01e81a92-5f47-408a-b977-c1f71d5b6d2b", "69ad18e5-edd6-4d96-913d-8a9128e5cce5", "14b7ed37-c100-4551-80c5-4e29ac7a46d7", "f8308df3-09ef-402d-89e0-9431fa05f0f7", "0bf309d8-f9b5-4e95-908c-cecb6387eebb", "ca4659bc-f872-4bdc-aea7-5d2ac982e55f", "0ecded9e-6a1b-42a2-bb0b-50f331761212"]'></div> 
+    </body>
+    </html>
+    

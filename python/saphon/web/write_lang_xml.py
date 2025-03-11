@@ -1,7 +1,7 @@
 
 # map locations
 def write(saphonData, htmlDir):
-  fo = open(htmlDir + '/lang.xml', 'w')
+  fo = open(htmlDir + '/lang.xml', 'w', encoding='utf-8')
   fo.write('<markers>\n')
   for l in saphonData.lang_:
     fo.write( '  <marker title="' + l.name + '" ' +

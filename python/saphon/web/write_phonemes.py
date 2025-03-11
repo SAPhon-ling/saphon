@@ -1,9 +1,9 @@
 from collections import *
 
-from saphon.io import *
-from saphon.web.write_inventories import writeTable, writeNonsounds
-from saphon.web.optimize_layout import *
-from saphon.web.xlt import *
+from python.saphon.io import *
+from python.saphon.web.write_inventories import writeTable, writeNonsounds
+from python.saphon.web.optimize_layout import *
+from python.saphon.web.xlt import *
 #import dbg
 
 def writeLocal(saphonData, htmlDir, loc):
@@ -23,7 +23,7 @@ def writeLocal(saphonData, htmlDir, loc):
   metalang = loc.metalang_code
   filename = loc.find_by_phonemes_phonemes
 
-  fo = open(htmlDir+'/'+metalang+'/'+filename+'.php', 'w')
+  fo = open(htmlDir+'/'+metalang+'/'+filename+'.php', 'w', encoding='utf-8')
   fo.write('''
     <?php include("header.php"); ?>
     <link rel="stylesheet" media="screen" type="text/css" href="../inv.css"/>
